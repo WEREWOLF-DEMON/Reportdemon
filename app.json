@@ -1,0 +1,34 @@
+{
+    "name": "ηιккι χ яєρσятєя",
+    "description": "α тєℓєgяαм мαѕѕ яєρσят вσт ",
+    "logo": "https://graph.org/file/ec2ed37f4ec2efc2d2d04.jpg",
+    "keywords": ["Report Bot", "Report", "Ban", "Channel Report", "Telegram Channel Report"],    
+    "repository": " ",
+    "env": {
+        "API_ID": {
+            "description": "уσυя αρι ι∂ ƒяσм my.telegram.org ",
+            "value": "12380656",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "уσυя αρι нαѕн ƒяσм my.telegram.org ",
+            "value": "d927c13beaaf5110f25c505b7c071273",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "уσυя вσт тσкєη ƒяσм @BotFather",
+            "value": "",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description":"α∂∂ уσυя υѕєя",
+            "value": "6958279255",
+            "required": true
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
